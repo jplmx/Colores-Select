@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Colores</title>
+		<link href="efectos2.css" rel="stylesheet" type="text/css">
+		<script src="Tarea_Colores_1_JPLM.js" type="text/JavaScript"></script>
+	</head>
+
+	<body><center>
+		<p class="titulo24">Cambiar propiedades de los elementos</p>
+		<br>
+		<table border="3" width="60%">
+			
+		<form name="f_colores">
+			<tr align="center">
+				<td><p><b>Color Fondo</b></p></td>
+				<td><p><b>Color Texto</b></p></td>
+				<td><p><b>Resultado</b></p></td>
+			</tr>
+			<tr align="center">
+				<td>
+					<select id="m_colores">
+    					<option value="red">Rojo</option>
+    					<option value="blue">Azul</option>
+    					<option value="yellow">Amarillo</option>
+  					</select>
+				</td>
+
+				<td>
+					<select id="t_colores">
+    					<option value="black">Negro</option>
+    					<option value="violet">Morado/Violeta</option>
+    					<option value="white">Blanco</option>
+  					</select>
+				</td>
+				<td>
+					<textarea name="res" class="campo" cols="10" rows="10">
+						Este es el resultado visual de tu selección
+					</textarea>
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="3">
+					<input name="b_ejecuta" type="button" class="boton" value="Ejecutar" onclick="ejecutar()">
+				</td>
+			</tr>
+		</form>
+		</table>
+	</center></body>
+</html>
